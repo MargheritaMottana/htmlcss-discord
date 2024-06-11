@@ -51,15 +51,38 @@
     text-align: right;
 }
 
+.button {
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.button-white {
+    color: black;
+    background-color: white;
+}
+
+.button-black {
+    color: white;
+    background-color: black;
+}
+
+.button-lilla {
+    color: white;
+    background-color: #7288DA;
+}
+
 
 /* HEADER TOP*/
 
 header .header-top {
     padding: 10px 0;
+    color: white;
+    background-color: #255EE9;
 }
 
-.debug header .header-top>.container>.row>* {
-    padding: 10px;
+header .header-top .container .row {
+    align-items: center;
 }
 
 header .header-top nav ul {
@@ -69,9 +92,12 @@ header .header-top nav ul {
 }
 
 header .header-top nav ul>li>a {
+    color: white;
+    text-decoration: none;
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
+
 
 /* HEADER BOTTOM */
 
@@ -149,7 +175,7 @@ footer .flex-container>* {
     border: 2px dashed black
 }
 
-.debug .header-bottom .jumbo {
+.debug .header-bottom .jumbo-pink {
     background-color: #EE81EE;
     border: 2px dashed black;
     min-height: 400px;
