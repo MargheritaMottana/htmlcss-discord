@@ -127,16 +127,34 @@ header .header-top nav ul>li>a {
     font-size: large;
 }
 
-
 /* MAIN */
 
 main>section {
     padding: 40px 0;
 }
 
-main>section:nth-child(even) {
-    background-color: #D3D3D3;
+main .column-2-5 {
+    padding: 40px;
 }
+
+main h2 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+main .column-3-5 img {
+    width: 100%;
+}
+
+main>section:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+main>section:last-child {
+    text-align: center;
+}
+
+
 
 /* FOOTER */
 
