@@ -52,11 +52,16 @@
 }
 
 .button {
+    display: inline-block;
     padding: 10px 15px;
     border-radius: 50px;
     text-decoration: none;
-    font-size: small;
-    margin: 0 5px;
+    font-size: 1.1rem;
+}
+
+.button-small {
+    font-size: 0.9rem;
+    padding: 10px 15px;
 }
 
 .button-white {
@@ -74,6 +79,10 @@
     background-color: #7288DA;
 }
 
+p {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
 
 /* HEADER TOP*/
 
@@ -104,17 +113,12 @@ header .header-top nav ul>li>a {
 /* HEADER BOTTOM */
 
 .header-bottom {
-    padding: 20px 0;
-    background-color: blue;
+    padding: 80px 0;
+    background-color: #255EE9;
     background-image: url('../img/jumbo.png');
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.header-bottom .jumbo {
-    margin: 0 auto;
-    padding: 100px 0;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header-bottom .jumbo>* {
@@ -123,12 +127,8 @@ header .header-top nav ul>li>a {
     text-align: center;
 }
 
-.header-bottom .jumbo div>* {
-    font-size: large;
-}
-
 .jumbo>h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 /* MAIN */
@@ -170,10 +170,6 @@ main h3 {
 
 main>section:last-child {
     text-align: center;
-}
-
-.jumbo-green div a {
-    font-size: large;
 }
 
 /* FOOTER */
